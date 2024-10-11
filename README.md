@@ -41,7 +41,7 @@ Implimenattion Steps:
 
 6. For redies configarion create seprat pakage as config. Where we are going to conncet redies connection factory.
 7. In this pakage create class as RedisConfig and annotaed as @Configration and   @EnableRedisRepositories.
-8. In that same class create one method as jediesConnectionFActory. Where we have to define our hostname and port number.Also annoted this method with @Bean annotation.
+8. In that same class create one method as jediesConnectionFactory. Where we have to define our hostname and port number.Also annoted this method with @Bean annotation.
 9. In oredr to acces redies server. We have to create rediseTemplate bean method and need configure it.
 
 
